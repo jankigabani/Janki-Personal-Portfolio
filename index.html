@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janki - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./portfolio/images/letter-j.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./portfolio/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./portfolio/images/my-avatar1.jpg" alt="Janki Gabani" width="80" style="border-radius: 20%;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Janki Gabani">Janki Gabani</h1>
+
+          <p class="title">Data Analyst &nbsp; |  &nbsp; AI/Ml Enthusiast</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jankigabani14@gmail.com" class="contact-link">jankigabani14@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 9638183121" class="contact-link">+91 9638183121</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/janki-gabani-00a120200/" class="contact-link">janki gabani</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/jankigabani" class="contact-link">jankigabani</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://medium.com/@jankigabani14" class="social-link">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/janki_gabani" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/janki_gabani/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hyyy👋 I'm Janki Gabani. I'm a Data Analyst & AI/ML Enthusiast. 
+            I'm currently pursuing my B.Tech in Computer Science and Engineering from P P Savani University. 
+            I'm a passionate learner and always ready to learn new technologies. 
+            I enjoy
+            turning complex data into simple, easy and understandable visualizations.
+          </p>
+
+          <p>
+            My job is to provide meaningful insights from data and help businesses to make better decisions. 
+            I have worked on various projects related to Data Analysis, Data Visualization, Machine Learning and Artificial Intelligence.
+            currently learning Deep Learning, Natural Language Processing and Financial Analysis.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./portfolio/images/analytics.png" alt="Data analytics icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data analytics</h4>
+
+                <p class="service-item-text">
+                  collect, clean, and analyze data to extract insights and support decision-making.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./portfolio/images/dashboard.png" alt="Data Visualization icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Visualization</h4>
+
+                <p class="service-item-text">
+                  represention of data to present graphically to communicate patterns, trends, and insights effectively.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./portfolio/images/database.png" alt="Database icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SQL Database handling</h4>
+
+                <p class="service-item-text">
+                  manage and manipulate data, including storing, retrieving, updating, and deleting information using Structured Query Language (SQL).
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./portfolio/images/coding.png" alt="AI/ML icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+
+                <p class="service-item-text">
+                  develop algorithms and models to enable machines to learn from data and make intelligent decisions.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - certificates
+        -->
+
+        <section class="certificates">
+
+          <h3 class="h3 certificates-title">certificates</h3>
+
+          <ul class="certificates-list has-scrollbar">
+
+            <li class="certificates-item">
+              <div class="content-card" data-certificates-item>
+
+
+                <h4 class="h4 certificates-item-title" data-certificates-title>Tableau<a style="float:right;" href="https://drive.google.com/file/d/1QKeMDn9bSX-ekutEMvxlsGISvqWaGVgM/view?usp=sharing">🔗</a></h4>
+
+                <div class="certificates-text" data-certificates-text>
+                  <p>
+                    learned to create interactive data visualizations, perform data analysis, 
+                    and gain insights from various datasets using Tableau's features and functionalities.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="certificates-item">
+              <div class="content-card" data-certificates-item>
+
+                <h4 class="h4 certificates-item-title" data-certificates-title>Data Science<a style="float:right;" href="https://drive.google.com/file/d/1_OcguVsh1vNaesExA1yAvvrvdmrBkhVd/view?usp=sharing">🔗</a></h4>
+
+                <div class="certificates-text" data-certificates-text>
+                  <p>
+                    learned to apply statistical methods, machine learning techniques, 
+                    and data manipulation skills to extract valuable insights and solve real-world problems from data.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="certificates-item">
+              <div class="content-card" data-certificates-item>
+                <h4 class="h4 certificates-item-title" data-certificates-title>Data Analysis with python<a style="float:right;" href="https://drive.google.com/file/d/1SNJg5aEqvt6KlONwwaxJ6r8DXny0KhKr/view?usp=sharing">🔗</a></h4>
+
+                <div class="certificates-text" data-certificates-text>
+                  <p>
+                    learned to use Python libraries such as Pandas and NumPy to 
+                    manipulate and analyze data, perform statistical analysis, and create data visualizations.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="certificates-item">
+              <div class="content-card" data-certificates-item>
+                
+                <h4 class="h4 certificates-item-title" data-certificates-title>SQL(Basic)<a style="float:right;" href="https://www.hackerrank.com/certificates/03eada30bc15">🔗</a></h4>
+
+                <div class="certificates-text" data-certificates-text>
+                  <p>
+                    Successfully completed HackerRank's SQL (Basic) skill test.
+                    <br>
+                    <br>
+                    <br>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="certificates-item">
+              <div class="content-card" data-certificates-item>
+                
+                <h4 class="h4 certificates-item-title" data-certificates-title>Python(Basic)<a style="float:right;" href="https://www.hackerrank.com/certificates/07851a425b23">🔗</a></h4>
+
+                <div class="certificates-text" data-certificates-text>
+                  <p>
+                    Successfully completed HackerRank's Python(Basic) skill test.
+                    <br>
+                    <br>
+                    <br>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - certificates modal
+        -->
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="certificates-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Tableau</h4>
+
+              <time datetime="2023-03-14">14 March, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  learned to create interactive data visualizations, 
+                  perform data analysis, and gain insights from various datasets using Tableau's features and functionalities.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - achievements
+        -->
+
+        <section class="achievements">
+
+          <h3 class="h3 achievements-title">achievements</h3><br>
+
+          <li class="service-item">
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title"><a style="float:left;" href="https://drive.google.com/file/d/1It3C4m6EUmBoP39omn5ZPoWl11DYeOS9/view?usp=sharing">🔗</a> &nbsp; Volunteering at EVidyaloka</h4>
+
+              <p class="service-item-text">
+                Provided expertise to students in rural India, conveying knowledge of maths
+                developing critical thinking skills.
+              </p>
+            </div>
+            
+          </li>
+          <br>
+          <li class="service-item">
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title"><a style="float:left;" href="https://drive.google.com/file/d/1wyqy6LR1KT-_xr4SwwnrFAOuZ6F2b7Ch/view?usp=sharing">🔗</a> &nbsp; HackthisFall</h4>
+
+              <p class="service-item-text">
+                Participated in HackthisFall Hackathon organized by MLH and made it to the semifinal in the best girls team category.
+              </p>
+            </div>
+            
+          </li>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              
+              <h4 class="h4 timeline-item-title" style="display: inline;">P P Savani University<span style="float:right;font-style: italic;">CGPA : 8.9</span></h4> 
+              
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                currently pursuing B.Tech in Computer Science and Engineering.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Matrubhumi Vidhyalaya<span style="float:right;font-style: italic;">Percentage: 71%</span></h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                Completed HSC in Mathematics major.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">V. N. Godhani Kanya Vidhyalaya<span style="float:right;font-style: italic;">Percentage: 90.33%</span></h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                Completed SSC in GSEB board.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern<a style="float:right;" href="https://drive.google.com/file/d/1Xw9F-8faqLh6ODgpP_Z5Tob8RU9DzlEK/view?usp=drive_link">🔗</a></h4>
+              
+              <span>April 2023 - June 2023</span>
+
+              <p class="timeline-text">
+                As an SQL Developer intern at LaMinds, I have experience designing and optimizing complex databases. I helped optimized a large dataset
+                database and improved its system’s performance. I am a highly skilled and experienced SQL Developer with a strong track record of
+                delivering high-quality projects
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Subject Matter Expert<a style="float:right;" href="https://drive.google.com/file/d/1H-efLeqwuAFRLpRueqPRoFsPVcfE_Xsl/view?usp=sharing">🔗</a></h4>
+
+              <span>March 2022 - January 2023</span>
+
+              <p class="timeline-text">
+                At Chegg India Pvt Ltd i worked as Freelancing subject matter Expert.
+                I utilized my knowledge of computer science to provide accurate and
+                timely solutions to students’ questions. My strong technical skills and
+                problem-solving abilities allowed me to effectively communicate
+                complex concepts in an understandable manner, thereby improving
+                students’ learning experience. 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data analytics</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Visualization</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL Database Handling</h5>
+                <data value="90">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="50">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>project</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>blog</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>project</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>blog</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="project">
+              <a href="https://github.com/jankigabani/SwasthakAI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./portfolio/images/project 1.png" alt="SwasthaकAI" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SwasthaकAI</h3>
+
+                <p class="project-category">project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="project">
+              <a href="https://github.com/jankigabani/VisionVoice">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./portfolio/images/project 2.png" alt="VisionVoice" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VisionVoice</h3>
+
+                <p class="project-category">project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="project">
+              <a href="https://github.com/jankigabani/Survival-Analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./portfolio/images/project 3.png" alt="Survival Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Survival Analysis</h3>
+
+                <p class="project-category">project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="project">
+              <a href="https://github.com/jankigabani/Real-Estate-DataSet-Analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./portfolio/images/project 4.png" alt="Real-estate-data analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Real-estate-data analysis</h3>
+
+                <p class="project-category">project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="blog">
+              <a href="https://medium.com/@jankigabani14/data-science-and-healthcare-predicting-cardiovascular-diseases-risk-d43e16e5d629">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./portfolio/images/project 6.png" alt="Data Science and Healthcare" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Science and Healthcare: Predicting Cardiovascular Diseases Risk</h3>
+
+                <p class="project-category">blog</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="project">
+              <a href="https://github.com/jankigabani/Hotel-Management-System">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./portfolio/images/project 5.jpg" alt="Hotel Management System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hotel Management System</h3>
+
+                <p class="project-category">project</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8845.944440764688!2d72.8072137085398!3d21.22147109452795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04ea198f7fa65%3A0x222e8535cfb72afa!2zMjHCsDEzJzIyLjgiTiA3MsKwNDgnMzEuOSJF!5e0!3m2!1sen!2sin!4v1649958686809!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./portfolio/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
